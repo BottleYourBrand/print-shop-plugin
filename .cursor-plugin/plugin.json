@@ -1,0 +1,27 @@
+{
+  "name": "bottle-your-brand",
+  "displayName": "Bottle Your Brand",
+  "publisher": "Bottle Your Brand",
+  "version": "1.0.0",
+  "description": "Turn any image into custom die-cut vinyl stickers printed by Bottle Your Brand, with free tools for sizing, background removal, cut paths, and resolution checks.",
+  "author": {
+    "name": "Bottle Your Brand",
+    "email": "info@bottleyourbrand.com"
+  },
+  "homepage": "https://www.bottleyourbrand.com/",
+  "repository": "https://github.com/BottleYourBrand/print-shop-plugin",
+  "license": "MIT",
+  "keywords": [
+    "stickers",
+    "custom-stickers",
+    "die-cut",
+    "vinyl",
+    "printing",
+    "print-shop",
+    "labels",
+    "mcp"
+  ],
+  "logo": "https://www.bottleyourbrand.com/media/wysiwyg/BYB_square_logo.jpg",
+  "category": "design",
+  "tags": ["stickers", "printing", "commerce", "mcp"]
+}
