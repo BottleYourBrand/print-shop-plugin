@@ -21,7 +21,7 @@
     "labels",
     "mcp"
   ],
-  "logo": "https://www.bottleyourbrand.com/media/wysiwyg/BYB_square_logo.jpg",
+  "logo": "assets/logo.png",
   "category": "design",
   "tags": ["stickers", "printing", "commerce", "mcp"]
 }
