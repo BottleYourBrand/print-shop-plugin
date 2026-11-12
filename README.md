@@ -1,8 +1,10 @@
 # Bottle Your Brand — Print Shop plugin
 
-Turn any image into custom die-cut vinyl stickers printed by [Bottle Your Brand](https://www.bottleyourbrand.com/), a family-owned print shop in Bothell, Washington.
+Turn any image into custom stickers and labels printed by [Bottle Your Brand](https://www.bottleyourbrand.com/), a family-owned print shop in Bothell, Washington.
 
-This plugin connects your agent to the Bottle Your Brand MCP server. Hand it a picture, logo, or drawing and it returns a link to the order page with your artwork already attached. It also answers sticker questions from the shop's own print specs and opens free tools for common artwork problems.
+This plugin connects your agent to the Bottle Your Brand MCP server. Hand it a picture, logo, or drawing and it returns a link to the order page with your artwork already attached. For labels, the artwork is first resized to the exact print size with 0.125" bleed at 300 dpi and previewed on a real bottle. It also answers print questions from the shop's own specs and opens free tools for common artwork problems.
+
+**Products:** die-cut vinyl stickers (2" to 6"), wine labels (3.5" × 4"), beer labels (4" × 3.5"), water bottle labels (8.25" × 1.75" or 8" × 2.125"), dropper bottle labels (3" × 2"), and square (2" to 5") and rectangle (3" × 2" to 6" × 4") labels.
 
 ## What it can do
 
@@ -12,8 +14,11 @@ This plugin connects your agent to the Bottle Your Brand MCP server. Hand it a p
 | `order_custom_stickers` | Takes a public image URL (PNG, JPG, or PDF) and returns a prefilled order link |
 | `upload_sticker_artwork` | Shows an upload panel for artwork that lives on your device |
 | `show_print_tool` | Opens a free tool: measure-by-photo, background remover, cutline generator, resolution tester, contrast check, size guide, or online designer |
+| `get_label_specs` | Label and square/rectangle label specs: trim size, bleed, safe zone, ideal pixels, the image-generator shape to request, and a downloadable PDF template |
+| `order_label_artwork` | Takes a public image URL (PNG, JPG, or WebP), resizes it to the exact label size with bleed, and returns a bottle preview, cut-line preview, warnings, print-ready files, and a prefilled order link |
+| `upload_label_artwork` | Shows an upload panel that fits the artwork to the label and previews it on the bottle |
 
-The plugin also includes a `custom-stickers` skill that tells the agent when and how to use these tools.
+The plugin also includes `custom-stickers` and `custom-labels` skills that tell the agent when and how to use these tools.
 
 ## Install
 
@@ -31,6 +36,9 @@ No account, API key, or sign-in is needed.
 - "What size sticker fits on a 20 oz water bottle?"
 - "Is this image high enough resolution to print as a sticker?"
 - "Remove the background from my photo so I can make a sticker of my dog."
+- "Make this a 3.5 x 4 wine label and show it on a bottle: https://example.com/vineyard.png"
+- "Turn our logo into 3 inch square labels for candle jars."
+- "Give me a template for a dropper bottle label so I can design it in Canva."
 
 ## MCP
 
@@ -49,11 +57,12 @@ The server is also listed in the official MCP registry as `com.bottleyourbrand/p
 
 ## How ordering works
 
-The tools never place or charge an order. They hand off to the Bottle Your Brand order page with your artwork attached, and you choose size and quantity and check out on [bottleyourbrand.com](https://www.bottleyourbrand.com/custom-stickers).
+The tools never place or charge an order. They hand off to the Bottle Your Brand order page with your artwork attached, and you choose size and quantity and check out on [bottleyourbrand.com](https://www.bottleyourbrand.com/).
 
 ## Links
 
 - [Custom stickers](https://www.bottleyourbrand.com/custom-stickers)
+- [Wine labels](https://www.bottleyourbrand.com/custom-wine-label) · [Beer labels](https://www.bottleyourbrand.com/custom-beer-label) · [Water bottle labels](https://www.bottleyourbrand.com/custom-water-bottle-label) · [Square labels](https://www.bottleyourbrand.com/custom-square-sticker) · [Rectangle labels](https://www.bottleyourbrand.com/custom-rectangle-sticker)
 - [MCP documentation](https://www.bottleyourbrand.com/mcp-documentation)
 - [Privacy policy](https://www.bottleyourbrand.com/privacy-policy)
 - [Terms and conditions](https://www.bottleyourbrand.com/terms-and-conditions)

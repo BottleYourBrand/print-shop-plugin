@@ -2,8 +2,8 @@
   "name": "bottle-your-brand",
   "displayName": "Bottle Your Brand",
   "publisher": "Bottle Your Brand",
-  "version": "1.0.0",
-  "description": "Turn any image into custom die-cut vinyl stickers printed by Bottle Your Brand, with free tools for sizing, background removal, cut paths, and resolution checks.",
+  "version": "1.1.0",
+  "description": "Turn any image into custom stickers and labels printed by Bottle Your Brand: die-cut stickers plus wine, beer, water bottle, dropper bottle and square or rectangle labels, resized to the exact print size with bleed and previewed on the bottle. Free tools for sizing, background removal, cut paths, and resolution checks.",
   "author": {
     "name": "Bottle Your Brand",
     "email": "info@bottleyourbrand.com"
@@ -16,12 +16,23 @@
     "custom-stickers",
     "die-cut",
     "vinyl",
+    "labels",
+    "custom-labels",
+    "wine-labels",
+    "beer-labels",
+    "water-bottle-labels",
+    "bottle-labels",
     "printing",
     "print-shop",
-    "labels",
     "mcp"
   ],
   "logo": "assets/logo.png",
   "category": "design",
-  "tags": ["stickers", "printing", "commerce", "mcp"]
+  "tags": [
+    "stickers",
+    "labels",
+    "printing",
+    "commerce",
+    "mcp"
+  ]
 }
